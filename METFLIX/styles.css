@@ -1,0 +1,89 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+.metflix-Title {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 1000;
+    font-size: 45px;
+}
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    height: 8%;
+    font-size: 32px;
+    color: rgb(10, 57, 211);
+    display: flex;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;  
+}
+
+.chamada {
+    background-image: linear-gradient(90deg, #020024 0%, #2704a8 35%, #bd07bd 100%);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px rgb(42, 122, 228) ;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 2%;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(42, 122, 228) ;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
+.categoria-videos p {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 130%;
+    margin-top: 10px;
+    color: gainsboro;
+    text-transform: lowercase;
+}
+.categoria-videos p::first-letter {
+    text-transform: uppercase;
+}
+.categoria-videos a {
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
